@@ -1,0 +1,4 @@
+# aiRepoScanService 项目编程规则
+
+## 代码层级结构
+-接口代码按照四层格式进行编写：entity、dao、mapper、service、controller
