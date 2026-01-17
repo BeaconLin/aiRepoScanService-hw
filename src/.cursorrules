@@ -1,4 +1,10 @@
 # aiRepoScanService 项目编程规则
 
-## 代码层级结构
--接口代码按照四层格式进行编写：entity、dao、mapper、service、controller
+## 编码约束
+1、变量名命名驼峰
+2、包名全小写
+3、保持controller--->service--->dao---->mapper--->db模型的层级结构
+    接口写在controller层
+    业务逻辑写在service层
+    dao、mapper、domain用mybatis-generator插件自动生成
+    
